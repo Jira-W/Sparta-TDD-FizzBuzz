@@ -1,4 +1,4 @@
-require_relative '../lib/calc_engine'
+require_relative '../lib/fizzbuzz_engine'
 
 
 # Config for nice output
