@@ -8,7 +8,7 @@ describe Fizzbuzz do
   it 'The method should return an array' do
     expect(@fizzb.gen_array).to be_a(Array)
   end
-  it 'The array should be a number from 1 - 100' do
+  it 'The array should be a number from 1 to 100' do
     expect(@fizzb.gen_array).to eq((1..100).to_a)
   end
   it 'Should replace mutiple of 15 with fizzbuzz' do
@@ -22,7 +22,7 @@ describe Fizzbuzz do
     expect(@fizzb.fizz_buzz[4]).to eq('buzz')
     expect(@fizzb.fizz_buzz[9]).to eq('buzz')
   end
-  it 'Check output is not empty and printing the result' do
+  it 'Checking output is not empty and printing the result' do
     expect(@fizzb.print).not_to be_empty
   end
 end

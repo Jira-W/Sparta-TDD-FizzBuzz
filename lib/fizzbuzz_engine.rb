@@ -29,5 +29,4 @@ class Fizzbuzz
         puts element
       end
     end
-
 end
